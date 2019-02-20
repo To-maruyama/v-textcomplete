@@ -11,13 +11,13 @@ Here is [documents](https://textcomplete.iline.co/)
 ## Installation
 
 ```javascript
-npm install v-textcomplete --save
+npm install vue-textcomplete --save
 ```
 
 Or
 
 ```javascript
-yarn add v-textcomplete --save
+yarn add vue-textcomplete --save
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ yarn add v-textcomplete --save
 Registe global component:
 
 ```javascript
-import TextComplete from 'v-textcomplete'
+import TextComplete from 'vue-textcomplete'
 
 Vue.component('text-complete', TextComplete)
 ```
@@ -35,7 +35,7 @@ Vue.component('text-complete', TextComplete)
 Registe component:
 
 ```javascript
-import TextComplete from 'v-textcomplete'
+import TextComplete from 'vue-textcomplete'
 
 export default {
   components: { TextComplete }
@@ -51,7 +51,7 @@ export default {
 
 <script>
 import { default as githubEmoji } from './github_emoji'
-import TextComplete from 'v-textcomplete'
+import TextComplete from 'vue-textcomplete'
 
 export default {
   components: { TextComplete },
